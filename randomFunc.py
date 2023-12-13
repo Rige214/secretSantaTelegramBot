@@ -38,17 +38,3 @@ for p in range(0, colvo):
 p+1
 print(newPairs)
 print(userId, userName, userWish, userPairs)
-
-
-
-
-
-
-    # pairOne = str(pairs[num][0][0]) + str(" ") + str(pairs[num][0][1]) + str(" ") + str(pairs[num][0][2]) + str(" ")
-    # pairTwo = str(pairs[num][1][0]) + str(" ") + str(pairs[num][1][1]) + str(" ") + str(pairs[num][1][2]) + str(" ")
-    # print(str("Пары - ") + str(num) + pairOne + pairTwo + '\n')
-    # cursor.execute('INSERT INTO Pairs (telegramIdOne,telegramIdTwo,userNameOne,userNameTwo,wishOne,wishTwo) '
-    #                    'VALUES (?, ?, ?, ?, ?, ?)',
-    #                    (pairs[num][0][0], pairs[num][1][0], pairs[num][0][1], pairs[num][1][1], pairs[num][0][2],pairs[num][1][2]))
-#     connection.commit()
-# connection.close()
